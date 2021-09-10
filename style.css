@@ -1,0 +1,85 @@
+.title {
+    color: gold;
+    background-color: rebeccapurple;
+    font-size: 40px;
+    width: 220px;
+    
+    
+}
+
+.square {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    animation: blink 10s infinite;
+    -webkit-animation: blink 10s infinite;
+}
+
+.codeimage {
+    display:inline-block
+    
+
+}
+
+@keyframes blink {
+    
+    0% {
+        background: rgb(238, 17, 17)
+    }10% {
+        background: rgb(238, 142, 17)
+    }20% {
+        background: rgb(238, 205, 17)
+    }30% {
+        background: rgb(223, 238, 17)
+    }40% {
+        background: rgb(87, 238, 17)
+    }50% {
+        background: rgb(17, 238, 183)
+    }60% {
+        background: rgb(17, 120, 238)
+    }70% {
+        background: rgb(83, 17, 238)
+    }80% {
+        background: rgb(201, 17, 238)
+    }90% {
+        background: rgb(238, 17, 164)
+    }100% {
+        background: rgb(238, 17, 28)
+    }
+
+
+    
+
+}
+
+@-webkit-keyframes blink {
+    
+    0% {
+        background: rgb(238, 17, 17)
+    }10% {
+        background: rgb(238, 142, 17)
+    }20% {
+        background: rgb(238, 205, 17)
+    }30% {
+        background: rgb(223, 238, 17)
+    }40% {
+        background: rgb(87, 238, 17)
+    }50% {
+        background: rgb(17, 238, 183)
+    }60% {
+        background: rgb(17, 120, 238)
+    }70% {
+        background: rgb(83, 17, 238)
+    }80% {
+        background: rgb(201, 17, 238)
+    }90% {
+        background: rgb(238, 17, 164)
+    }100% {
+        background: rgb(238, 17, 28)
+    }
+
+    
+    
+
+}
