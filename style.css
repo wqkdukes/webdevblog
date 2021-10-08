@@ -54,6 +54,11 @@
     
 }
 
+#gradient {
+    background-image: linear-gradient(rgb(216, 25, 184), rgb(60, 44, 202));
+    color: white;
+}
+
 #b {
     background-image: url("alger.png");
     background-color: rgb(24, 216, 81);
@@ -73,6 +78,10 @@
     height:400px;
     border-radius: 25px;
     margin: 5px;
+}
+#highlight {
+
+    outline: none;
 }
 
 @keyframes blink {
